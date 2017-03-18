@@ -59,3 +59,15 @@ ggcal(mydate, myfills) + scale_fill_manual(values=c("weekday"="steelblue", "week
 ```
 
 ![](README_files/figure-markdown_github/unnamed-chunk-5-1.png)
+
+This will also span multiple years...
+
+``` r
+mydate <- seq(as.Date("2016-09-01"), as.Date("2017-02-28"), by="1 day")
+myfills <- rnorm(length(mydate))
+
+ggcal(mydate, myfills) + 
+    scale_fill_gradient2(low="#4575b4", mid="#ffffbf", high="#d73027", midpoint=0)
+```
+
+![](README_files/figure-markdown_github/unnamed-chunk-6-1.png)
