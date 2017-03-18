@@ -1,7 +1,4 @@
 ---
-title: "ggcal"
-author: "Jay Jacobs"
-date: "3/18/2017"
 output: github_document
 ---
 

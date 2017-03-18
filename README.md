@@ -1,7 +1,3 @@
-ggcal
-================
-Jay Jacobs
-3/18/2017
 
 `ggcal` is a simple package to generate a familiar calendar plot from a vector of dates and fill values.
 
