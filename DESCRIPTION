@@ -1,0 +1,17 @@
+Package: ggcal
+Type: Package
+Title: Calendar Plot Using ggplot2
+Version: 0.1.0
+Author: Jay Jacobs <jay@beechplane.com>
+Maintainer: Jay Jacobs <jay@beechplane.com>
+Description: Given a vector of dates and a vector to map fill onto, this will
+    generate a calendar plot.
+Imports:
+    dplyr,
+    ggplot2,
+    tibble,
+    forcats
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
